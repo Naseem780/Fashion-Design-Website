@@ -1,0 +1,384 @@
+::-webkit-scrollbar{
+
+    width: 20px;
+
+}
+::-webkit-scrollbar-thumb{
+
+
+    background-color:#5C4938;
+}
+
+
+::-webkit-scrollbar-thumb:hover{
+
+
+    background-color: #b9a329;
+}
+
+
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+body{
+
+    
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 70px;
+
+
+}
+
+
+/*head Design*/
+header{
+    
+    position: fixed;
+    width:78%;
+    top:0;
+    padding-left:12%;
+    padding-right: 12%;
+    height:100px;
+    display: flex;
+    color:aliceblue;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5C4938;
+    
+
+}
+
+header ul{
+
+    display: flex;
+    
+}
+
+header ul li {
+    
+    list-style: none;
+    
+
+}
+
+header ul li a{
+    color:aliceblue;
+    list-style: none;
+    text-decoration: none;
+    margin:10px;
+
+}
+nav a:hover{
+
+    color:#b9a329;
+}
+header h1 span{
+
+    font-family: 'Lobster', cursive;
+    color:#b9a329;
+
+}
+
+.header-container{
+   
+    height:100vh;
+    
+
+}
+
+
+
+
+
+.container{
+
+
+
+    
+    width: 76%;
+    height: 100vh;
+    padding-left: 12%;
+    padding-right:12%;
+    background-color: rgb(58, 58, 58);
+    padding-top: 0px;
+    
+    padding-bottom: 130px;
+    display: grid;
+    place-items:center;
+    
+    
+    
+
+    
+
+}
+
+form{
+
+
+    
+    background-color: wheat;
+    width:400px;
+    padding: 50px;
+    border-radius: 5px 50px 0px 30px;
+    
+    
+    
+
+    
+
+}
+
+.container h3{
+
+
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.form-group{
+
+
+    border: none;
+    
+    margin-bottom:10px;
+    padding-bottom: 5px;
+
+}
+
+
+.form-group label{
+
+
+    
+    display: block;
+    margin-bottom:5px;
+    color: #5C4938;
+    font-weight: 500;
+
+
+}
+.form-group input{
+    width:100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid wheat;
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+.form-group textarea{
+
+    width:100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid wheat;
+    border-radius: 3px;
+    outline: none;
+    
+
+}
+
+.form-group p{
+
+
+    font-size: 14px;
+    margin-top: 5px;
+    visibility: hidden;
+    
+    
+
+
+}
+
+.form-group.error p{
+
+
+    color: red;
+    visibility: visible;
+    
+
+
+}
+
+.form-group.error input{
+
+    border-color: red;
+
+
+}
+
+.form-group.error textarea{
+
+    border-color: red;
+
+}
+
+
+.form-group.success textarea{
+
+    border-color:greenyellow;
+}
+
+.form-group.success input{
+
+    border-color:greenyellow;
+}
+
+
+
+
+
+
+
+
+.form button{
+
+
+    width: 100%;
+    padding:10px;
+    border:2px solid rgb(145, 149, 140);
+    background-color: #b9a329;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+
+footer{
+
+    
+    height:15vh;
+    background-color: black;
+    padding-top: 4%;
+    padding-left: 12%;
+    padding-right: 12%;
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+    font-size: 18px;
+    
+    
+}
+
+footer ul a{
+
+    text-decoration: none;
+    color: white;
+}
+
+
+footer ul{
+
+    list-style: none;
+    margin-bottom: px;
+}
+
+footer ul li{
+
+    
+    margin-bottom: 3%;
+}
+
+
+
